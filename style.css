@@ -1,10 +1,12 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .game-card {
     height: 100vh;
     font-family: 'Open Sans', monospace;
+}
+
+#collapseContainer2 #collapseContainer3{
+    display: none;
+}
+
+input {
+    width: 1000px;
 }
