@@ -40,12 +40,30 @@
                     </div>
                     <div class="card-body">
                         <div class="input-group">
-                            Минимальное значение: <input type="text" name="minValue" placeholder="0">
-                            Максимальное значение: <input type="text" name="maxValue" placeholder="100"><br>
+                            Минимальное значение: <input id="min" type="text" name="minValue" placeholder="0">
+                            Максимальное значение: <input id="max" type="text" name="maxValue" placeholder="100"><br>
                         </div>
                     </div>
                     <div class="card-footer">
                         <button type="button" id="start" class="btn btn-success btn-lg">Старт</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row game-card align-items-center"  id="collapseContainer4">
+            <div class="col col-md-4 offset-md-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <p class="m-0">Игра Угадайка!</p>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <p><span id="message">Загадайте любое целое число от 0 до 100, а я его угадаю</span></p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button type="button" id="go" class="btn btn-success btn-lg">Ок</button>
                     </div>
                 </div>
             </div>
