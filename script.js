@@ -1,6 +1,6 @@
     var minValue;
     var maxValue;
-    let gameRun = true;
+    let gameRun;
     let answerNumber;
     let orderNumber;
 
@@ -84,6 +84,7 @@ document.querySelector('#go').addEventListener('click', (event) => {
 
     answerNumber  = Math.floor((minValue + maxValue) / 2);
     orderNumber = 1;
+    gameRun = true;
 
     const orderNumberField = document.querySelector('#orderNumberField');
     const answerField = document.querySelector('#answerField');
